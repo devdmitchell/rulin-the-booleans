@@ -2,18 +2,19 @@
  * YOUR CODE BELOW! *
  ********************/
 
-function moreThan5(){
-
+function moreThan5(num){
+  return num > 5;
 }
 
 function isNewTopScore(score, topScore){
 const isHigher = score > topScore
 return isHigher
-
 // return score > topScore (another way to do it)
 }
 
-
+function isInDanger(grade){
+  return grade >= 60 && grade <= 71;
+}
 
 
 /********************************************************************************************
